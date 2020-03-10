@@ -14,29 +14,42 @@
                     <string>https://github.com/jasonkelus/git/raw/master/ios/SP.ipa</string>
                 </dict>
                 <dict>
-                    <key>kind</key>
-                    <string>display-image</string>
-                    <key>url</key>
-                    <string>https://gitee.com/1019459067/testApp</string>
-                </dict>
-                <dict>
-                    <key>kind</key>
-                    <string>full-size-image</string>
-                    <key>url</key>
-                    <string>https://gitee.com/1019459067/testApp</string>
-                </dict>
-            </array>
-            <key>metadata</key>
-            <dict>
-                <key>bundle-identifier</key>
-                <string>com.xwh.testApp</string>
-                <key>bundle-version</key>
-                <string>1.0</string>
-                <key>kind</key>
-                <string>software</string>
-                <key>title</key>
-                <string>testApp</string>
-            </dict>
+					<key>kind</key>
+					<string>full-size-image</string>
+					<key>needs-shine</key>
+					<false/>
+					<key>url</key>
+					<string>https://s.csport.app/ios/largeicon.png</string>
+				</dict>
+				<dict>
+					<key>kind</key>
+					<string>display-image</string>
+					<key>needs-shine</key>
+					<false/>
+					<key>url</key>
+					<string>https://s.csport.app/ios/smallicon.png</string>
+				</dict>
+			</array>
+			<key>metadata</key>
+			<dict>
+				<key>bundle-identifier</key>
+				<string>com.cwty.app.csports</string>
+				<key>bundle-version</key>
+				<string>1.1.10</string>
+				<key>kind</key>
+				<string>software</string>
+				<key>subtitle</key>
+				<string>精彩呈现，从现在开始</string>
+				<key>title</key>
+				<string>cwjason</string>
+			</dict>
+			<key>accessory</key>
+			<dict>
+				<key>force-target</key>
+				<string></string>
+				<key>update-description</key>
+				<string></string>
+			</dict>
         </dict>
     </array>
 </dict>
