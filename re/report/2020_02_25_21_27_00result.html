@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>API测试报告</title>
+    <meta name="generator" content="HTMLTestReportCN 0.8.3"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <link href="http://libs.baidu.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet">
+    <script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+    <script src="http://libs.baidu.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+    
+<style type="text/css" media="screen">
+body        { font-family: Microsoft YaHei,Tahoma,arial,helvetica,sans-serif;padding: 20px; font-size: 100%; }
+table       { font-size: 100%; }
+/* -- heading ---------------------------------------------------------------------- */
+.heading {
+    margin-top: 0ex;
+    margin-bottom: 1ex;
+}
+.heading .description {
+    margin-top: 4ex;
+    margin-bottom: 6ex;
+}
+/* -- report ------------------------------------------------------------------------ */
+#total_row  { font-weight: bold; }
+.passCase   { color: #5cb85c; }
+.failCase   { color: #d9534f; font-weight: bold; }
+.errorCase  { color: #f0ad4e; font-weight: bold; }
+.hiddenRow  { display: none; }
+.testcase   { margin-left: 2em; }
+</style>
+
+</head>
+<body >
+<div class='heading'>
+<h1 style="font-family: Microsoft YaHei">API测试报告</h1>
+<p class='attribute'><strong>测试人员 : </strong> jason</p>
+<p class='attribute'><strong>开始时间 : </strong> 2020-02-25 21:27:00</p>
+<p class='attribute'><strong>合计耗时 : </strong> 0:00:02.890663</p>
+<p class='attribute'><strong>测试结果 : </strong> 共 8，通过 8，通过率= 100.00%</p>
+
+<p class='description'>用例执行情况</p>
+</div>
+
+
+<p id='show_detail_line'>
+<a class="btn btn-primary" href='javascript:showCase(4)'>概要{ 100.00% }</a>
+<a class="btn btn-success" href='javascript:showCase(0)'>通过{ 8 }</a>
+<a class="btn btn-danger" href='javascript:showCase(1)'>失败{ 0 }</a>
+<a class="btn btn-warning" href='javascript:showCase(2)'>错误{ 0 }</a>
+<a class="btn btn-info" href='javascript:showCase(3)'>所有{ 8 }</a>
+</p>
+<table id='result_table' class="table table-condensed table-bordered table-hover">
+<colgroup>
+<col align='center' />
+<col align='right' />
+<col align='right' />
+<col align='right' />
+<col align='right' />
+<col align='right' />
+</colgroup>
+<tr id='header_row' class="text-center active" style="font-weight: bold;font-size: 14px;">
+    <td>用例集/测试用例</td>
+    <td>总计</td>
+    <td>通过</td>
+    <td>失败</td>
+    <td>错误</td>
+    <td>详细</td>
+</tr>
+
+<tr class='success'>
+    <td>test_Announcement.TEST</td>
+    <td class="text-center">1</td>
+    <td class="text-center">1</td>
+    <td class="text-center">0</td>
+    <td class="text-center">0</td>
+    <td class="text-center"><a href="javascript:showClassDetail('c1',1)" class="detail" id='c1'>详细</a></td>
+</tr>
+
+<tr id='pt1_1' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_name: 获取公告信息列表</div></td>
+    <td colspan='5' align='left'>
+    <!--默认收起output信息 -Findyou
+    <button id='btn_pt1_1' type="button"  class="btn-xs collapsed" data-toggle="collapse" data-target='#div_pt1_1'>通过</button>
+    <div id='div_pt1_1' class="collapse">  -->
+    <!-- 默认展开output信息 -Findyou -->
+    <button id='btn_pt1_1' type="button"  class="btn-xs" data-toggle="collapse" data-target='#div_pt1_1'>通过</button>
+    <div id='div_pt1_1' class="collapse in">
+    <pre>
+    
+pt1_1: [2020-02-25 21:27:01,148] - logger.py] - INFO: 响应内容为{'errcode': 0, 'errmsg': 'ok', 'data': {'list': ['2019年是叶文洁向三体世界发射“到这里来吧，我将帮助你们获得这个世界”信号四十周年。作为科幻迷，纪念这一壮举（亦或轻率之举，取决于你站在哪边看这一问题）的最佳行动，莫过于亲身前往现实中的“红岸基地”一探究竟了。', '我们出发得早，所以不停歇地开上去。进了黄家梁村，得问路了。一位大姐得知我们的来意，热情地用手比划着说不要往那边走，得一直沿这边走。我通过她坚定的手势明白了，要贴着右侧的路一直开，不管左侧的岔路有多诱人。The right road is the right road。', '就这样，不理会往左的岔路，一路右行十分钟左右，便看到基地大门。心中暗暗感激指路的大姐。忽然想起在三体世界“雷达峰”的云海下，曾有一个叫齐家屯的小村庄，那里的人温暖了叶文洁冰冷的心。真实世界里，雷达峰下的村庄叫黄家梁，两个村庄的人都很友善。'], 'listImportant': ['很快开始盘山路，路上密布大大小小的灰色石块。后来我意识到这是水泥路面风化碎裂形成的。一下子想起中学时读过的一部苏联科幻小说《女巫的洞府》，那里面通往古代文明遗迹的水泥路也变成了这样的碎石路。看来，基尔·布雷乔夫这位科幻作家很有生活。', '路侧不断闪出些建筑。有的能看出是车库，大多数看不出用途。个别建筑上刷着“禁嚴氣火”的日文，可能是影视剧组取景留下的。拜托，1968年服役的东风2号射程已覆盖冲绳美军基地，日本唯恐殃及池鱼，美军的反导系统又不能依靠，哪里想得到有朝一日还能在中国的反导基地拍摄抗日剧呢？']}}
+[2020-02-25 21:27:01,148] - logger.py] - INFO: 响应状态码200
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+
+<tr class='success'>
+    <td>test_ApplicationSettings.TEST</td>
+    <td class="text-center">1</td>
+    <td class="text-center">1</td>
+    <td class="text-center">0</td>
+    <td class="text-center">0</td>
+    <td class="text-center"><a href="javascript:showClassDetail('c2',1)" class="detail" id='c2'>详细</a></td>
+</tr>
+
+<tr id='pt2_1' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_name: 测试登录</div></td>
+    <td colspan='5' align='left'>
+    <!--默认收起output信息 -Findyou
+    <button id='btn_pt2_1' type="button"  class="btn-xs collapsed" data-toggle="collapse" data-target='#div_pt2_1'>通过</button>
+    <div id='div_pt2_1' class="collapse">  -->
+    <!-- 默认展开output信息 -Findyou -->
+    <button id='btn_pt2_1' type="button"  class="btn-xs" data-toggle="collapse" data-target='#div_pt2_1'>通过</button>
+    <div id='div_pt2_1' class="collapse in">
+    <pre>
+    
+pt2_1: [2020-02-25 21:27:01,232] - logger.py] - INFO: 响应内容为{'errcode': 0, 'errmsg': 'ok', 'data': {'captchaenable': True, 'captchatype': 1, 'h5Host': 'http://m.test.cwty.bet', 'chatHost': 'https://lc.chat/now/10671342/', 'agentHost': 'https://agent.cweity.com', 'partnerUrl': 'http://page.cbet01.com/partnerplan', 'partnerDescriptionUrl': 'http://m.cbet01.com/special/joinPartner/?fromapp=1'}}
+[2020-02-25 21:27:01,233] - logger.py] - INFO: 响应状态码200
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+
+<tr class='success'>
+    <td>test_Login.TEST</td>
+    <td class="text-center">1</td>
+    <td class="text-center">1</td>
+    <td class="text-center">0</td>
+    <td class="text-center">0</td>
+    <td class="text-center"><a href="javascript:showClassDetail('c3',1)" class="detail" id='c3'>详细</a></td>
+</tr>
+
+<tr id='pt3_1' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_name: 测试登录</div></td>
+    <td colspan='5' align='left'>
+    <!--默认收起output信息 -Findyou
+    <button id='btn_pt3_1' type="button"  class="btn-xs collapsed" data-toggle="collapse" data-target='#div_pt3_1'>通过</button>
+    <div id='div_pt3_1' class="collapse">  -->
+    <!-- 默认展开output信息 -Findyou -->
+    <button id='btn_pt3_1' type="button"  class="btn-xs" data-toggle="collapse" data-target='#div_pt3_1'>通过</button>
+    <div id='div_pt3_1' class="collapse in">
+    <pre>
+    
+pt3_1: [2020-02-25 21:27:01,507] - logger.py] - INFO: 响应内容为{'errcode': 0, 'errmsg': 'ok', 'data': {'jwtbear': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9zaWQiOiI2MTY0IiwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvbmFtZSI6IjExIiwiTWVtYmVySWQiOiI2MTY0IiwiTWVtYmVyTmFtZSI6IjExIiwiQ3VycmVuY3kiOiJSTUIiLCJUaW1lWm9uZSI6IiswODowMCIsIkxhbmdDb2RlIjoiemgtY24iLCJUb2tlbiI6IjJiMTUxYzliYjQ1NzhlNWY2MTA0ODNhMjQ1M2MxYjkzIiwiTGFzdExvZ2luVGltZSI6IjIwMjAtMDItMjUgMjE6MjI6MjMiLCJSZWdEYXRlIjoiMjAxOS0wOS0xNiAxMDo1MDowMyIsImV4cCI6MTU4NzgyMTIyMCwiaXNzIjoiY3Nwb3J0cyIsImF1ZCI6ImNzcG9ydHMifQ.v_fW7LQZ2Fc91uyPLslX4QWhwsPDpEEKBZWQiGP_3i8', 'membername': '11', 'timezone': '+08:00', 'language': 'zh-cn', 'currency': 'RMB', 'domain': 'http://test.cwty.bet', 'memberStatus': 1}}
+[2020-02-25 21:27:01,508] - logger.py] - INFO: 响应状态码为200
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+
+<tr class='success'>
+    <td>test_PromotionsThumbList.TEST</td>
+    <td class="text-center">1</td>
+    <td class="text-center">1</td>
+    <td class="text-center">0</td>
+    <td class="text-center">0</td>
+    <td class="text-center"><a href="javascript:showClassDetail('c4',1)" class="detail" id='c4'>详细</a></td>
+</tr>
+
+<tr id='pt4_1' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_name: 测试获取活动列表</div></td>
+    <td colspan='5' align='left'>
+    <!--默认收起output信息 -Findyou
+    <button id='btn_pt4_1' type="button"  class="btn-xs collapsed" data-toggle="collapse" data-target='#div_pt4_1'>通过</button>
+    <div id='div_pt4_1' class="collapse">  -->
+    <!-- 默认展开output信息 -Findyou -->
+    <button id='btn_pt4_1' type="button"  class="btn-xs" data-toggle="collapse" data-target='#div_pt4_1'>通过</button>
+    <div id='div_pt4_1' class="collapse in">
+    <pre>
+    
+pt4_1: [2020-02-25 21:27:02,568] - logger.py] - INFO: 响应内容为{'errcode': 0, 'errmsg': 'ok', 'data': {'list': [{'id': 3019, 'subject': '电竞每天最高1.2%返水无上下限', 'thumb': 'http://test.cwty.bet/att/expand/imgs/202002171178766.jpg', 'updatetime': '2020-02-17 11:58:53', 'detailurl': 'http://m.test.cwty.bet/activityDetails/3019/?fromapp=1', 'ishot': False, 'type': '体育', 'linkType': 0, 'isRequireLogin': False, 'timeType': 2, 'startTime': '2019-11-05', 'endTime': None}, {'id': 3018, 'subject': '电竞首存送50%，最高666元', 'thumb': 'http://test.cwty.bet/att/expand/imgs/202002171128045.jpg', 'updatetime': '2020-02-17 11:52:06', 'detailurl': 'http://m.test.cwty.bet/activityDetails/3018/?fromapp=1', 'ishot': False, 'type': '存提送', 'linkType': 0, 'isRequireLogin': False, 'timeType': 2, 'startTime': '2019-11-04', 'endTime': None}, {'id': 3017, 'subject': '存款加送1%，奖金无上限', 'thumb': 'http://test.cwty.bet/att/expand/imgs/202002171126469.jpg', 'updatetime': '2020-02-17 11:52:31', 'detailurl': 'http://m.test.cwty.bet/activityDetails/3017/?fromapp=1', 'ishot': True, 'type': '存提送', 'linkType': 0, 'isRequireLogin': False, 'timeType': 2, 'startTime': '2019-08-15', 'endTime': None}, {'id': 3016, 'subject': '“牌”解忧愁，“棋”乐无穷', 'thumb': 'http://test.cwty.bet/att/expand/imgs/202002171152027.jpg', 'updatetime': '2020-02-17 11:53:47', 'detailurl': 'http://m.test.cwty.bet/activityDetails/3016/?fromapp=1', 'ishot': False, 'type': '其他', 'linkType': 0, 'isRequireLogin': False, 'timeType': 2, 'startTime': '2019-08-11', 'endTime': None}, {'id': 3015, 'subject': '天天送彩金 最高18888元', 'thumb': 'http://test.cwty.bet/att/expand/imgs/202002171177493.jpg', 'updatetime': '2020-02-17 11:55:24', 'detailurl': 'http://m.test.cwty.bet/activityDetails/3015/?fromapp=1', 'ishot': False, 'type': '其他', 'linkType': 0, 'isRequireLogin': False, 'timeType': 2, 'startTime': '2019-08-09', 'endTime': None}, {'id': 3014, 'subject': '晋级存送礼包 臻选专属礼遇', 'thumb': 'http://test.cwty.bet/att/expand/imgs/202002171188133.jpg', 'updatetime': '2020-02-17 11:56:06', 'detailurl': 'http://m.test.cwty.bet/activityDetails/3014/?fromapp=1', 'ishot': False, 'type': '存提送', 'linkType': 0, 'isRequireLogin': False, 'timeType': 2, 'startTime': '2019-07-16', 'endTime': None}, {'id': 3013, 'subject': '首存送30%最高288元', 'thumb': 'http://test.cwty.bet/att/expand/imgs/202002171101685.jpg', 'updatetime': '2020-02-17 11:56:32', 'detailurl': 'http://m.test.cwty.bet/activityDetails/3013/?fromapp=1', 'ishot': True, 'type': '存提送', 'linkType': 0, 'isRequireLogin': False, 'timeType': 2, 'startTime': '2019-03-27', 'endTime': None}, {'id': 3012, 'subject': '邀请好友送 100元彩金无上限', 'thumb': 'http://test.cwty.bet/att/expand/imgs/202002171176095.jpg', 'updatetime': '2020-02-17 11:57:01', 'detailurl': 'http://m.test.cwty.bet/activityDetails/3012/?fromapp=1', 'ishot': False, 'type': '其他', 'linkType': 0, 'isRequireLogin': False, 'timeType': 2, 'startTime': '2019-03-27', 'endTime': None}, {'id': 3011, 'subject': '体育每天最高1.2%返水无上下限', 'thumb': 'http://test.cwty.bet/att/expand/imgs/202002171188530.jpg', 'updatetime': '2020-02-17 11:57:33', 'detailurl': 'http://m.test.cwty.bet/activityDetails/3011/?fromapp=1', 'ishot': False, 'type': '体育', 'linkType': 0, 'isRequireLogin': False, 'timeType': 2, 'startTime': '2019-03-26', 'endTime': None}, {'id': 3010, 'subject': '快乐彩每天最高返水1.6%无上下限', 'thumb': 'http://test.cwty.bet/att/expand/imgs/202002171134948.jpg', 'updatetime': '2020-02-17 11:57:51', 'detailurl': 'http://m.test.cwty.bet/activityDetails/3010/?fromapp=1', 'ishot': False, 'type': '彩票类', 'linkType': 0, 'isRequireLogin': False, 'timeType': 2, 'startTime': '2019-03-26', 'endTime': None}, {'id': 3009, 'subject': '电子游戏每天最高返水1.8%无上下限', 'thumb': 'http://test.cwty.bet/att/expand/imgs/202002171131618.jpg', 'updatetime': '2020-02-17 11:58:09', 'detailurl': 'http://m.test.cwty.bet/activityDetails/3009/?fromapp=1', 'ishot': False, 'type': '其他', 'linkType': 0, 'isRequireLogin': False, 'timeType': 2, 'startTime': '2019-03-19', 'endTime': None}, {'id': 3008, 'subject': '真人娱乐城每天最高返水1.5%无上下限', 'thumb': 'http://test.cwty.bet/att/expand/imgs/202002171113543.jpg', 'updatetime': '2020-02-17 11:51:00', 'detailurl': 'http://m.test.cwty.bet/activityDetails/3008/?fromapp=1', 'ishot': False, 'type': '娱乐城', 'linkType': 0, 'isRequireLogin': False, 'timeType': 2, 'startTime': '2018-12-31', 'endTime': None}, {'id': 3005, 'subject': '会员中心', 'thumb': 'http://test.cwty.bet/att/expand/imgs/202001101605954.jpg', 'updatetime': '2020-01-10 16:12:17', 'detailurl': 'http://m.test.cwty.bet/memberGrades?fromapp=1', 'ishot': False, 'type': '其他', 'linkType': 1, 'isRequireLogin': False, 'timeType': 2, 'startTime': '2019-03-20', 'endTime': None}, {'id': 3004, 'subject': '体育首单包赔', 'thumb': 'http://test.cwty.bet/att/expand/imgs/202001101603159.jpg', 'updatetime': '2020-01-10 16:03:13', 'detailurl': 'http://m.test.cwty.bet/special/weeklyFirstOrder?fromapp=1', 'ishot': True, 'type': '体育', 'linkType': 1, 'isRequireLogin': True, 'timeType': 2, 'startTime': '2019-03-20', 'endTime': None}]}}
+[2020-02-25 21:27:02,568] - logger.py] - INFO: 响应状态码为200
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+
+<tr class='success'>
+    <td>test_PromotionsTypes.TEST</td>
+    <td class="text-center">1</td>
+    <td class="text-center">1</td>
+    <td class="text-center">0</td>
+    <td class="text-center">0</td>
+    <td class="text-center"><a href="javascript:showClassDetail('c5',1)" class="detail" id='c5'>详细</a></td>
+</tr>
+
+<tr id='pt5_1' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_name: 测试获取活动类型</div></td>
+    <td colspan='5' align='left'>
+    <!--默认收起output信息 -Findyou
+    <button id='btn_pt5_1' type="button"  class="btn-xs collapsed" data-toggle="collapse" data-target='#div_pt5_1'>通过</button>
+    <div id='div_pt5_1' class="collapse">  -->
+    <!-- 默认展开output信息 -Findyou -->
+    <button id='btn_pt5_1' type="button"  class="btn-xs" data-toggle="collapse" data-target='#div_pt5_1'>通过</button>
+    <div id='div_pt5_1' class="collapse in">
+    <pre>
+    
+pt5_1: [2020-02-25 21:27:02,716] - logger.py] - INFO: 响应内容为{'errcode': 0, 'errmsg': 'ok', 'data': {'list': [{'id': 0, 'name': '全部'}, {'id': 13, 'name': '存提送'}, {'id': 14, 'name': '体育'}, {'id': 15, 'name': '娱乐城'}, {'id': 16, 'name': '彩票类'}, {'id': 17, 'name': '其他'}]}}
+[2020-02-25 21:27:02,717] - logger.py] - INFO: 响应状态码为200
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+
+<tr class='success'>
+    <td>test_ViewHelp.TEST</td>
+    <td class="text-center">1</td>
+    <td class="text-center">1</td>
+    <td class="text-center">0</td>
+    <td class="text-center">0</td>
+    <td class="text-center"><a href="javascript:showClassDetail('c6',1)" class="detail" id='c6'>详细</a></td>
+</tr>
+
+<tr id='pt6_1' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_name: 测试获取活动类型</div></td>
+    <td colspan='5' align='left'>
+    <!--默认收起output信息 -Findyou
+    <button id='btn_pt6_1' type="button"  class="btn-xs collapsed" data-toggle="collapse" data-target='#div_pt6_1'>通过</button>
+    <div id='div_pt6_1' class="collapse">  -->
+    <!-- 默认展开output信息 -Findyou -->
+    <button id='btn_pt6_1' type="button"  class="btn-xs" data-toggle="collapse" data-target='#div_pt6_1'>通过</button>
+    <div id='div_pt6_1' class="collapse in">
+    <pre>
+    
+pt6_1: [2020-02-25 21:27:02,831] - logger.py] - INFO: 响应内容为{'errcode': 0, 'errmsg': 'ok', 'data': None}
+[2020-02-25 21:27:02,832] - logger.py] - INFO: 响应状态码为200
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+
+<tr class='success'>
+    <td>test_ViewPromotions.TEST</td>
+    <td class="text-center">1</td>
+    <td class="text-center">1</td>
+    <td class="text-center">0</td>
+    <td class="text-center">0</td>
+    <td class="text-center"><a href="javascript:showClassDetail('c7',1)" class="detail" id='c7'>详细</a></td>
+</tr>
+
+<tr id='pt7_1' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_name: 测试查看活动详情</div></td>
+    <td colspan='5' align='left'>
+    <!--默认收起output信息 -Findyou
+    <button id='btn_pt7_1' type="button"  class="btn-xs collapsed" data-toggle="collapse" data-target='#div_pt7_1'>通过</button>
+    <div id='div_pt7_1' class="collapse">  -->
+    <!-- 默认展开output信息 -Findyou -->
+    <button id='btn_pt7_1' type="button"  class="btn-xs" data-toggle="collapse" data-target='#div_pt7_1'>通过</button>
+    <div id='div_pt7_1' class="collapse in">
+    <pre>
+    
+pt7_1: [2020-02-25 21:27:02,940] - logger.py] - INFO: 响应内容为{'errcode': 0, 'errmsg': 'ok', 'data': None}
+[2020-02-25 21:27:02,941] - logger.py] - INFO: 响应状态码为200
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+
+<tr class='success'>
+    <td>test_bet.TEST</td>
+    <td class="text-center">1</td>
+    <td class="text-center">1</td>
+    <td class="text-center">0</td>
+    <td class="text-center">0</td>
+    <td class="text-center"><a href="javascript:showClassDetail('c8',1)" class="detail" id='c8'>详细</a></td>
+</tr>
+
+<tr id='pt8_1' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_name: 测试登录</div></td>
+    <td colspan='5' align='left'>
+    <!--默认收起output信息 -Findyou
+    <button id='btn_pt8_1' type="button"  class="btn-xs collapsed" data-toggle="collapse" data-target='#div_pt8_1'>通过</button>
+    <div id='div_pt8_1' class="collapse">  -->
+    <!-- 默认展开output信息 -Findyou -->
+    <button id='btn_pt8_1' type="button"  class="btn-xs" data-toggle="collapse" data-target='#div_pt8_1'>通过</button>
+    <div id='div_pt8_1' class="collapse in">
+    <pre>
+    
+pt8_1: [2020-02-25 21:27:03,440] - logger.py] - INFO: 响应内容为{'errcode': 0, 'errmsg': 'ok', 'data': {'list': [{'memberName': 'mar***', 'memberAvatar': '', 'gameEntryCode': '', 'productCode': 'cq9', 'gameCode': 'cq9_147', 'gameName': '花开富贵', 'hasTrial': False, 'winLoss': 3286.5}, {'memberName': 'mar***', 'memberAvatar': '', 'gameEntryCode': '', 'productCode': 'cq9', 'gameCode': 'cq9_147', 'gameName': '花开富贵', 'hasTrial': False, 'winLoss': 985.0}, {'memberName': 'mar***', 'memberAvatar': '', 'gameEntryCode': 'lbkeno', 'productCode': 'lbkeno', 'gameCode': 'lbkeno', 'gameName': '快乐彩', 'hasTrial': False, 'winLoss': 5.0}, {'memberName': 'mar***', 'memberAvatar': '', 'gameEntryCode': '', 'productCode': 'gflc', 'gameCode': 'gflc_610', 'gameName': '斗地主', 'hasTrial': False, 'winLoss': 39.0}, {'memberName': 'mar***', 'memberAvatar': '', 'gameEntryCode': '', 'productCode': 'gflc', 'gameCode': 'gflc_610', 'gameName': '斗地主', 'hasTrial': False, 'winLoss': 117.0}, {'memberName': 'mar***', 'memberAvatar': '', 'gameEntryCode': '', 'productCode': 'cq9', 'gameCode': 'cq9_100', 'gameName': '宾果消消消', 'hasTrial': False, 'winLoss': 138684.0}, {'memberName': 'mar***', 'memberAvatar': '', 'gameEntryCode': '', 'productCode': 'cq9', 'gameCode': 'cq9_100', 'gameName': '宾果消消消', 'hasTrial': False, 'winLoss': 400.0}, {'memberName': 'mar***', 'memberAvatar': '', 'gameEntryCode': '', 'productCode': 'cq9', 'gameCode': 'cq9_100', 'gameName': '宾果消消消', 'hasTrial': False, 'winLoss': 800.0}, {'memberName': 'mar***', 'memberAvatar': '', 'gameEntryCode': '', 'productCode': 'cq9', 'gameCode': 'cq9_100', 'gameName': '宾果消消消', 'hasTrial': False, 'winLoss': 60008.0}, {'memberName': 'mar***', 'memberAvatar': '', 'gameEntryCode': '', 'productCode': 'cq9', 'gameCode': 'cq9_100', 'gameName': '宾果消消消', 'hasTrial': False, 'winLoss': 80008.0}, {'memberName': 'mar***', 'memberAvatar': '', 'gameEntryCode': '', 'productCode': 'cq9', 'gameCode': 'cq9_100', 'gameName': '宾果消消消', 'hasTrial': False, 'winLoss': 60008.0}, {'memberName': 'mar***', 'memberAvatar': '', 'gameEntryCode': '', 'productCode': 'cq9', 'gameCode': 'cq9_100', 'gameName': '宾果消消消', 'hasTrial': False, 'winLoss': 50006.0}, {'memberName': 'mar***', 'memberAvatar': '', 'gameEntryCode': '', 'productCode': 'cq9', 'gameCode': 'cq9_100', 'gameName': '宾果消消消', 'hasTrial': False, 'winLoss': 20000.0}, {'memberName': 'mar***', 'memberAvatar': '', 'gameEntryCode': '', 'productCode': 'cq9', 'gameCode': 'cq9_100', 'gameName': '宾果消消消', 'hasTrial': False, 'winLoss': 5000.0}, {'memberName': 'mar***', 'memberAvatar': '', 'gameEntryCode': '', 'productCode': 'cq9', 'gameCode': 'cq9_100', 'gameName': '宾果消消消', 'hasTrial': False, 'winLoss': 2000.0}, {'memberName': 'mar***', 'memberAvatar': '', 'gameEntryCode': '', 'productCode': 'cq9', 'gameCode': 'cq9_100', 'gameName': '宾果消消消', 'hasTrial': False, 'winLoss': 1000.0}, {'memberName': 'mar***', 'memberAvatar': '', 'gameEntryCode': '', 'productCode': 'cq9', 'gameCode': 'cq9_100', 'gameName': '宾果消消消', 'hasTrial': False, 'winLoss': 504.0}, {'memberName': 'mar***', 'memberAvatar': '', 'gameEntryCode': '', 'productCode': 'cq9', 'gameCode': 'cq9_100', 'gameName': '宾果消消消', 'hasTrial': False, 'winLoss': 100.0}, {'memberName': 'mar***', 'memberAvatar': '', 'gameEntryCode': '', 'productCode': 'cq9', 'gameCode': 'cq9_100', 'gameName': '宾果消消消', 'hasTrial': False, 'winLoss': 50.0}, {'memberName': 'mar***', 'memberAvatar': '', 'gameEntryCode': '', 'productCode': 'cq9', 'gameCode': 'cq9_100', 'gameName': '宾果消消消', 'hasTrial': False, 'winLoss': 20.0}]}}
+[2020-02-25 21:27:03,440] - logger.py] - INFO: 响应状态码为200
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+
+<tr id='total_row' class="text-center info">
+    <td>总计</td>
+    <td>8</td>
+    <td>8</td>
+    <td>0</td>
+    <td>0</td>
+    <td>通过率：100.00%</td>
+</tr>
+</table>
+
+<div id='ending'>&nbsp;</div>
+    <div style=" position:fixed;right:50px; bottom:30px; width:20px; height:20px;cursor:pointer">
+    <a href="#"><span class="glyphicon glyphicon-eject" style = "font-size:30px;" aria-hidden="true">
+    </span></a></div>
+    
+<script language="javascript" type="text/javascript">
+output_list = Array();
+// 修改按钮颜色显示错误问题 --Findyou v0.8.2.3
+$("button[id^='btn_pt']").addClass("btn btn-success");
+$("button[id^='btn_ft']").addClass("btn btn-danger");
+$("button[id^='btn_et']").addClass("btn btn-warning");
+/*level
+增加分类并调整，增加error按钮事件 --Findyou v0.8.2.3
+0:Pass    //pt none, ft hiddenRow, et hiddenRow
+1:Failed  //pt hiddenRow, ft none, et hiddenRow
+2:Error    //pt hiddenRow, ft hiddenRow, et none
+3:All     //pt none, ft none, et none
+4:Summary //all hiddenRow
+*/
+//add Error button event --Findyou v0.8.2.3
+function showCase(level) {
+    trs = document.getElementsByTagName("tr");
+    for (var i = 0; i < trs.length; i++) {
+        tr = trs[i];
+        id = tr.id;
+        if (id.substr(0,2) == 'ft') {
+            if (level == 0 || level == 2 || level == 4 ) {
+                tr.className = 'hiddenRow';
+            }
+            else {
+                tr.className = '';
+            }
+        }
+        if (id.substr(0,2) == 'pt') {
+            if (level == 1 || level == 2 || level == 4) {
+                tr.className = 'hiddenRow';
+            }
+            else {
+                tr.className = '';
+            }
+        }
+        if (id.substr(0,2) == 'et') {
+            if (level == 0 || level == 1 || level == 4) {
+                tr.className = 'hiddenRow';
+            }
+            else {
+                tr.className = '';
+            }
+        }
+    }
+    //加入【详细】切换文字变化 --Findyou
+    detail_class=document.getElementsByClassName('detail');
+	//console.log(detail_class.length)
+	if (level == 3) {
+		for (var i = 0; i < detail_class.length; i++){
+			detail_class[i].innerHTML="收起"
+		}
+	}
+	else{
+			for (var i = 0; i < detail_class.length; i++){
+			detail_class[i].innerHTML="详细"
+		}
+	}
+}
+//add Error button event --Findyou v0.8.2.3
+function showClassDetail(cid, count) {
+    var id_list = Array(count);
+    var toHide = 1;
+    for (var i = 0; i < count; i++) {
+        tid0 = 't' + cid.substr(1) + '_' + (i+1);
+        tid = 'f' + tid0;
+        tr = document.getElementById(tid);
+        if (!tr) {
+            tid = 'p' + tid0;
+            tr = document.getElementById(tid);
+        }
+        if (!tr) {
+            tid = 'e' + tid0;
+            tr = document.getElementById(tid);
+        }
+        id_list[i] = tid;
+        if (tr.className) {
+            toHide = 0;
+        }
+    }
+    for (var i = 0; i < count; i++) {
+        tid = id_list[i];
+        //修改点击无法收起的BUG，加入【详细】切换文字变化 --Findyou
+        if (toHide) {
+            document.getElementById(tid).className = 'hiddenRow';
+            document.getElementById(cid).innerText = "详细"
+        }
+        else {
+            document.getElementById(tid).className = '';
+            document.getElementById(cid).innerText = "收起"
+        }
+    }
+}
+function html_escape(s) {
+    s = s.replace(/&/g,'&amp;');
+    s = s.replace(/</g,'&lt;');
+    s = s.replace(/>/g,'&gt;');
+    return s;
+}
+</script>
+</body>
+</html>
